@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Шапка сайта -->
@@ -111,14 +111,14 @@
             
                             <label class="modal-form__group">
                                 <span class="modal-form__label">Комментарий</span>
-                                <main-task__textarea class="modal-form__message" name="comment" rows=" " placeholder="Введите текст"></main-task__textarea>
+                                <textarea class="modal-form__message" name="comment" rows=" " placeholder="Введите текст"></textarea>
                             </label>
                         </div>
                         <!-- Чекбокс -->
                         <label class="modal-policy__group">
                             <input class="checkbox visually-hidden" type="checkbox" name="mark" tabindex="-1"/>
                             <span class="custom-checkbox" tabindex="0" role="checkbox">
-                                <svg class="custom-checkbox-icon" width="16" height="15">
+                                <svg class="custom-checkbox__icon" width="16" height="15">
                                     <use href="./img-studio/sprite-modal.svg#icon-vector"></use>
                                 </svg>
                             </span>
@@ -147,7 +147,7 @@
                         </svg>
                     </div>
                     <h3 class="features__title">Внимание к деталям</h3>
-                    <p class="features__main-task__text">
+                    <p class="features__text">
                         Идейные соображения, а также начало
                         повседневной работы по формированию позиции.
                     </p>
@@ -161,7 +161,7 @@
                         </svg>
                     </div>
                     <h3 class="features__title">Пунктуальность</h3>
-                    <p class="features__main-task__text">
+                    <p class="features__text">
                         Задача организации, в особенности же рамки и
                         место обучения кадров влечет за собой.
                     </p>
@@ -175,7 +175,7 @@
                         </svg> 
                     </div>
                     <h3 class="features__title">Планирование</h3>
-                    <p class="features__main-task__text">
+                    <p class="features__text">
                         Равным образом консультация с широким активом
                         в значительной степени обуславливает.
                     </p>
@@ -189,7 +189,7 @@
                         </svg>
                     </div>
                     <h3 class="features__title">Современные технологии</h3>
-                    <p class="features__main-task__text">
+                    <p class="features__text">
                         Значимость этих проблем настолько очевидна,
                         что реализация плановых заданий.
                     </p>
@@ -198,7 +198,7 @@
         </div>
         </section>
         
-    <!-- Секция Задачи студии -->
+    <!-- Секция Чем мы занимаемся -->
         <section class="main-task">
         <div class="container">
             <h2 class="title">Чем мы занимаемся</h2>

@@ -3,13 +3,8 @@
   align-items: center;
   margin-left: 305px;
 }
-.contact__item {
-  display: flex;
-  margin-right: 50px;
-
-  &:last-child {
-    margin-right: 0;
-  }
+.contact__list .contact__item + .contact__item {
+  margin-left: 50px;
 }
 
 .contact__link {

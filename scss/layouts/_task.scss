@@ -8,6 +8,8 @@
 
 .main-task__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main-task__list .main-task__item + .main-task__item {
   margin-left: var(--card-set-gap);

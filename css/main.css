@@ -159,7 +159,7 @@ body {
 }
 
 .logo__header {
-  margin-right: 93px;
+  margin-right: 90px;
 }
 
 .logo__title {
@@ -231,7 +231,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 305px;
+  margin-left: 295px;
 }
 
 .contact__list .contact__item + .contact__item {
